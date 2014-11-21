@@ -67,7 +67,7 @@ public class Medication implements ClockObserver{
 				System.out.println("A Bulk has expired!"); //TODO Ask user to remove bulk.
 				bulkIterator.removeCurrent();
 				stock -= bulk.getAmount();
-				//how do we update over total stock in PharmacyManager?
+				//how do we update totalstock in PharmacyManager?
 				//reference to PharmacyManager or Clock?
 			}
 			
