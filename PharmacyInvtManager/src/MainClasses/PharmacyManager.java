@@ -12,6 +12,7 @@ public class PharmacyManager {
 	}
 	
 	//display all the bulks for each Medication
+	//TEST CHANGE
 	public void displayMyStock(){
 		System.out.println("Overall total: " + this.getTotalStock());
 		System.out.println();
